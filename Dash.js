@@ -6,9 +6,10 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, StyleSheet, ViewPropTypes } from 'react-native'
+import { View, StyleSheet} from 'react-native'
 import MeasureMeHOC from 'react-native-measureme'
 import { getDashStyle, isStyleRow } from '../util'
+import {ViewPropTypes} from 'deprecated-react-native-prop-types' 
 
 const Dash = props => {
 	const isRow = isStyleRow(props.style)
